@@ -1,0 +1,132 @@
+# vypis datoveho typu
+    # typeof() - vypise datovy typ (double, integer, character, logical, complex, raw)
+    # class() - vypise tridu (misto double numeric)
+    # str() - napise tridu plus co tam je ulozeno (num 1.5) - datova struktura
+    # mode() - napise pro double i integer numeric
+    # storage.mode() - asi jako class
+
+# vypis promennych
+    # print() - da pred vystup [1] a text pise v uvozovkach
+    # cat() - tiskne bez uvozovek, vice oddeluje mezerou
+    # paste() - vraci hodnotu v jednouvozovkach
+
+# ls() - vypise seznam aktualne nadefinovanych promennych
+# rm() - vymaze promennou
+# rm(list = ls()) - vymaze vsechny promenne
+
+# getwd() - zjistime adresar, kde pracujeme
+# setwd() - zmenime adresar
+
+# umocneni - **, ^
+# zbytek po deleni %%
+# celociselne deleni %/%
+# sqrt() - odmocneni
+
+# as.character() - meni datovy typ na to co je za teckou
+
+# summary() - vypise informace o promenne
+
+# vektory
+    # tvoreni c(), seq(start, konec, krok) - u seq na posledni pozici muzeme pouzit i napr. length.out = na kolik stejnych casti chceme interval rozdelit
+        # rep(co, kolikrat), zacatek:konec
+    # nahodny vektor - runif(kolik clenu, min = , max = ) - v desetinnych cislech
+        # sample() - musime napsat vektor, ze ktereho se vybiraji hodnoty, pise se tam jeste replace = TRUE (jestli se hodnotz mohou opakovat), FALSE (pokud ne)
+    # head(jaky vektor, kolik) - vypise prvnich n slozek
+    # tail() - poslednich n slozek
+    # length() - spocita delku vektoru
+    # min(), max(), mean(), median(), mode() - min, max, prumer, median, mod
+    # diff() - odecte od n+1 slozky n slozku
+
+# NA je jakoby logicka dira, je to hodnotaa kterou nezname
+    # vetsina operaci s ni vraci zase NA, ale nektere napr. or vraci normalne, protoze ji znat nepotrebujeme
+    # ptame se na ni is.na()
+    # pokud chceme vypocitat neco, ale je tam NA, muzeme hodnotu odstranit na.rm = TRUE
+
+# datove typy a struktury v R
+    # vektor - c() - prvky stejneho typu
+    # faktor - factor() - uchovava kategorialni data, deli na levels atd., factor(vektor, levels = c(), ordered = T/F)
+    # matice - matrix() - prvky stejneho typu - dvourozmerna?
+    # pole - array(vektor, dim = c()) - zobecneni matice do n rozmeru
+    # datova tabulka - data.frame() - ruzne sloupce mohou mit ruzne typy dat, sloupce stejne dlouhe
+    # seznam - list() - libovolny typ, delka, dimenze
+
+# names(koho) <- jak - pojmenovani slozek vektoru 
+
+# pokud delame nejakou operaci s vektory ruzne delky, tak to nevadi, pokud dojde hodnota ve vektoru jede zase od zacatku
+
+# [] slouzi jako vyber pozice - kdyz chci treba vedet co je ve vektoru na 3 pozici - vektor[3]
+
+# which.min() - ptame se na jake pozici je minimum, pouzivame i jine slova za teckou
+
+# nominalni promenna - neni definovano usporadani, ordinalni promenna - je definovano usporadani / oboje definujeme pomoci factor() a u ordinalni musime napsat do zavorky ordered = TRUE
+
+# levels(kde) <- vektor postupne jak levely chceme prepsat - prepisuje nazvy levelu (levely se automaticky prepisuji abecedne)
+    # labels() - muzeme napsat hned, kdyz definujeme ten factor, dovnitr do zavorky za carku
+
+# dim() - dimenze matice
+# nrow() - kolik ma matice radku
+# ncol() - -||- sloupcu
+# colnames() - da nezvy sloupcum
+# rownames() - da nazvy radkum
+
+# round() - zaokrouhluje cisla
+# abs() - absolutni hodnota
+
+# byrow = TRUE - kdyz chci matici seradit po radcich, podobne po sloupcich
+
+# logicke operace
+    # %in% - je uvnitr (nalevo pisu seznam, ve kterem hledam, napravo co hledam)
+    # & - a
+    # && - a ktere uvazuje pouze prvni element
+    # | - nebo
+    # || - nebo ktere uvazuje pouze prvni element
+    # ! - negace
+    # intersect() - prunik
+    # union() - sjednoceni
+    # setdiff() - mnozinovy rozdil
+
+# unique() - kdyz se neco opakuje vypisuje to jen jednou
+# table() - vypise kolikrat se dana hodnota vyskytuje v promenne
+# prop.table() - da ti procentualni rozdeleni vsech casti vektoru nebo matice
+
+# collapse = ", " - oddeli vektor carkami jakoby do jednoho vektoru
+
+# cbind() - spojuje vektory vedle sebe do sloupcu
+
+# kdyz chci vypsat prvnich y sloupcu nebo x radku napisu ya matici [x, y] a to druhy co nechci napsat vynecham(necham tam prazdny misto
+
+# colSums() - vypise soucet sloupcu, podobne rowSums()
+# colMeans() - vypise prumery jednotlivzch sloupcu
+
+# sort() - radi vektor podle velikosti nebo abecedy
+
+# apply() - pouziva se kdyz, chci udelat neco pres radkz nebo sloupce matice, apply(promenna matice, kde [, ], co udelat)
+
+# solve() - pro reseni soustav linearnich rovnic solve(matice, vektor)
+
+# dimnames() - muzes priradit nazvy radkum i sloupcum, dimnames(A) <- list(c(), c())
+
+# $ - extrahuje z tabulky sloupec jako vektor
+
+# subset(x = ..., subset = ..., select = c(...) - tabulka, logicka podminka, sloupecky
+
+# ifelse(logicka podminka na urcity vektor, yes = ..., no =....)
+
+# order(podle ceho radit, decreasing = T/F)
+
+# aggregate(ciselna promenna ~ kategorialni promenna, x = tabulka, FUN = ciselna operace)
+
+# merge(x, y, by = podle ceho, co je stejne) - slouci datove tabulky, muze byt i by.x nebo by.y
+
+# is.na() - napise T/F podle toho , jestli hodnota je nebo neni dostupna
+# na.omit() - vymaze z tabulky nebo vektoru na
+
+# duplicated(x = vektor/tabullka) - vrati logicky vektor podle toho, jestli se hodnota vyskytuje uz po vicekrate
+
+# transform(tabulka, definujeme novy sloupec)
+
+# droplevels() - vymaze levely ktere nejsou vyuzity
+
+
+
+

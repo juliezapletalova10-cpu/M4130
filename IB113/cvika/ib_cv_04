@@ -1,0 +1,157 @@
+#1b, 2a, 3e, 4d, 5c, 6f
+#1e, 2c, 3b, 4a, 5d
+
+from random import randint
+
+def throw_till_odd() -> int:
+    total_sum = 0
+    n = 0
+    count_throw = 0
+    limmit = 3
+
+    while n % 2 == 0 and count_throw < limmit:
+        n = randint(1, 6)
+        print(n, end = ", ")
+        total_sum += n
+        count_throw += 1
+
+        if n % 2 != 0:
+            break
+
+        if count_throw >= limmit:
+            print("Limit of throws reached.")
+            break
+    print()
+    print(total_sum)
+    print("Number of throws:", count_throw)
+
+    mean_throw = total_sum / count_throw
+    print("Mean value of throws:", mean_throw)
+
+throw_till_odd()
+
+
+def divisors_count(number):
+    count = 0
+    for i in range(1, number + 1):
+        if number % i == 0:
+            count += 1
+    return count
+
+print(divisors_count(12)) 
+
+def is_prime(number):
+    return divisors_count(number) == 2
+
+print(is_prime(7))
+print(is_prime(12))
+
+def kth_prime(k):
+    n = 0
+    i = 1
+    while n < k:
+        i += 1
+        if is_prime(i):
+            n += 1
+    return i
+
+print(kth_prime(5))
+
+def interval(count, lower, upper):
+    if count <= 0:
+        raise ValueError("count must be positive")
+    if lower > upper:
+        raise ValueError("lower must not exceed upper")
+
+    numbers = [randint(lower, upper) for i in range(count)]
+    print(*numbers)
+    print("Minimum:", min(numbers))
+    print("Maximum:", max(numbers))
+    print("Average:", sum(numbers) / count)
+
+interval(10, 5, 20)
+
+# Opilec na ceste domu
+# Opilec je na puli cesty mezi domovem a hospodou, kazdy krok udela nahodne
+# jednim smerem. Napiste funkci, ktera bude simulovat opilcuv pohyb. Jejimy
+# parametry budou vzdalenost mezi domovem a hospodou a pocet kroku do
+# opilcova usnuti (tj. maximalni delka simulace). Simulace skonci bud tehdy,
+# kdyz opilec dojede domu nebo do hospody, pripadne po vycerpani poctu kroku.
+
+# Ukazka vystupu:
+# home . . . . . * . . . . pub
+# home . . . . * . . . . . pub
+# home . . . * . . . . . . pub
+# home . . . . * . . . . . pub
+# home . . . * . . . . . . pub
+# home . . . . * . . . . . pub
+# home . . . * . . . . . . pub
+# home . . * . . . . . . . pub
+# home . * . . . . . . . . pub
+# home * . . . . . . . . . pub
+# home . . . . . . . . . . pub
+# Got home!
+
+
+# Upravte funkci z predchozi prikladu tak, aby nevypisovala stav opilce
+# (napriklad pridanim volitelneho parametru output a zapodminkovanim vypisu)
+# a aby vracela True dojde-li opilec domu a False pokud ne.
+
+
+def drunkman_simulator(size, steps, output=False):
+    position = size // 2
+    def print_state():
+        print("home", end = " ")
+
+        for place in range(size):
+            if place == position:
+                print("*", end = " ")
+            else:
+                print(".", end = " ")
+
+        print("pub")
+
+    if output:
+        print_state()
+
+    i = 0
+    while i < steps and position != 0 and position != size:
+        direction = randint(0, 1)
+
+        if direction == 0:
+            position -= 1
+        else:
+            position += 1
+
+        if output:
+            print_state()
+
+        i += 1
+
+    if output:
+        if position == 0:
+            print("Got home!")
+        elif position == size:
+            print("Got to the pub!")
+        else:
+            print("Fell asleep.")
+
+    if position == 0:
+        return True
+    else:
+        return False
+
+
+drunkman_simulator(10, 10)
+
+
+# Nasledne napiste funkci, ktera provede simulaci opilce count krat a vypise
+# procentualni uspesnost dojiti domu.
+
+
+def drunkman_analysis(size, steps, count):
+    pass  # TODO
+
+
+drunkman_analysis(10, 100, 100)
+print()

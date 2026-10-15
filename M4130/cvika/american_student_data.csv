@@ -1,0 +1,179 @@
+name,surname,city,gender,height,is_smoker,is_student,study_programme,is_working,favourite_game,wakes_up,gpa_average,sport
+Sophia,Smith,Houston,Female,194.1,True,False,History,True,League of Legends,early,3.69,
+Olivia,Miller,San Jose,Female,157.9,True,True,Medicine,True,Fortnite,early,2.43,Tennis
+Sarah,Jones,Houston,Non-binary,173.4,False,False,Medicine,False,League of Legends,early,3.52,Basketball
+Sophia,Miller,Los Angeles,Male,157.9,False,False,Business,False,GTA V,late,3.37,Swimming
+John,Brown,Chicago,Non-binary,175.6,False,False,Art,False,Among Us,early,3.32,Tennis
+Jessica,Smith,Philadelphia,Non-binary,161.9,False,True,Science,True,Among Us,early,2.47,Tennis
+Jessica,Williams,San Diego,Non-binary,191.8,False,False,Psychology,True,Call of Duty,early,3.66,Running
+Emily,Davis,San Diego,Female,186.1,True,False,Science,True,Roblox,early,3.07,Basketball
+Sophia,Garcia,San Jose,Male,184.9,False,False,Business,True,League of Legends,late,2.07,Baseball
+Michael,Brown,New York,Non-binary,164.1,True,True,Psychology,True,Fortnite,early,3.45,Soccer
+David,Davis,Phoenix,Female,169.2,True,False,Business,True,Roblox,late,3.12,Swimming
+Sarah,Williams,San Antonio,Non-binary,192.9,False,False,Psychology,False,League of Legends,early,2.92,Tennis
+Sarah,Davis,Philadelphia,Female,172.6,False,False,Law,True,Minecraft,late,2.35,Tennis
+John,Smith,Los Angeles,Male,188.0,True,True,Science,False,League of Legends,early,2.8,Running
+Sarah,Smith,San Antonio,Male,199.2,False,False,Business,True,Roblox,late,2.23,Swimming
+John,Davis,Dallas,Non-binary,158.3,False,False,History,True,GTA V,late,4.0,Baseball
+David,Martinez,San Antonio,Female,179.2,False,False,Law,False,Among Us,late,2.02,Yoga
+John,Brown,San Diego,Male,199.1,True,True,Psychology,False,GTA V,late,3.25,Soccer
+Sarah,Brown,San Diego,Male,188.9,False,True,Art,False,The Sims,early,3.78,Baseball
+Sarah,Jones,San Antonio,Male,174.4,False,True,Psychology,False,Call of Duty,late,3.43,
+Olivia,Brown,Philadelphia,Non-binary,154.7,False,False,Law,False,Among Us,early,2.19,Soccer
+Michael,Martinez,Phoenix,Non-binary,150.7,False,False,Law,True,Fortnite,late,3.85,Baseball
+James,Jones,Houston,Non-binary,158.0,True,True,History,True,Fortnite,early,3.61,Basketball
+Emily,Williams,Philadelphia,Female,183.6,True,True,Engineering,True,Among Us,late,3.62,Baseball
+Olivia,Jones,Los Angeles,Male,152.5,True,True,Art,True,Call of Duty,early,3.36,Yoga
+Olivia,Miller,Chicago,Non-binary,158.6,True,True,Engineering,True,Roblox,late,2.86,Soccer
+David,Rodriguez,New York,Non-binary,174.4,False,True,Art,True,The Sims,early,2.61,Baseball
+Olivia,Miller,Chicago,Non-binary,169.9,False,False,Medicine,False,GTA V,late,2.61,Soccer
+Sarah,Smith,San Antonio,Non-binary,162.6,True,False,Art,True,Minecraft,early,3.59,Tennis
+David,Brown,Los Angeles,Non-binary,192.8,True,True,Law,True,Minecraft,early,3.93,
+Michael,Brown,Los Angeles,Male,182.4,True,False,Science,True,League of Legends,late,2.97,Soccer
+Olivia,Rodriguez,Chicago,Non-binary,174.5,True,True,Medicine,False,League of Legends,early,2.72,Baseball
+Emily,Garcia,Phoenix,Non-binary,169.5,True,False,Engineering,True,League of Legends,early,3.19,Tennis
+David,Williams,New York,Non-binary,166.0,False,False,Art,False,The Sims,early,3.99,Yoga
+Michael,Johnson,New York,Male,185.6,True,True,Law,True,League of Legends,late,3.55,Basketball
+Sophia,Garcia,Phoenix,Female,194.0,True,True,Business,False,Call of Duty,late,2.49,Yoga
+Sophia,Williams,Chicago,Female,167.5,False,True,History,False,Among Us,early,2.57,Tennis
+David,Smith,Philadelphia,Male,197.0,False,False,Psychology,False,Among Us,late,2.38,Swimming
+Michael,Rodriguez,Houston,Non-binary,192.8,False,False,Psychology,True,Fortnite,early,3.22,Basketball
+James,Rodriguez,Philadelphia,Male,182.6,False,False,Engineering,True,Minecraft,early,2.45,Tennis
+Olivia,Johnson,San Antonio,Male,153.1,True,True,Science,True,Among Us,early,3.72,Swimming
+Michael,Rodriguez,Houston,Male,189.0,True,False,Business,False,Call of Duty,late,3.48,Basketball
+Robert,Martinez,Chicago,Male,187.3,True,False,Art,False,GTA V,late,2.9,Basketball
+David,Brown,Phoenix,Male,151.7,True,False,Psychology,True,League of Legends,early,3.4,Baseball
+Emily,Martinez,Chicago,Female,199.5,True,False,Engineering,False,Among Us,early,3.33,Running
+Jessica,Jones,Houston,Female,190.5,False,False,Law,False,Call of Duty,early,2.61,Running
+Robert,Jones,Phoenix,Female,150.1,True,False,Medicine,False,Fortnite,early,2.49,Tennis
+Olivia,Garcia,Houston,Male,197.8,False,True,Law,True,Minecraft,late,3.81,Tennis
+Olivia,Miller,San Antonio,Female,182.9,True,True,Psychology,False,Minecraft,late,2.22,Tennis
+Olivia,Brown,Los Angeles,Non-binary,195.8,True,True,Psychology,True,GTA V,late,2.9,Running
+John,Martinez,San Jose,Female,171.3,False,False,History,False,Among Us,late,3.27,Yoga
+Jessica,Jones,Chicago,Female,186.9,True,True,History,True,Minecraft,early,2.11,Baseball
+Sophia,Johnson,Philadelphia,Non-binary,168.0,False,True,History,True,Among Us,late,3.12,Swimming
+Michael,Smith,San Diego,Non-binary,169.9,False,False,Medicine,True,Call of Duty,early,2.73,Swimming
+Olivia,Davis,Phoenix,Non-binary,170.6,False,False,Science,False,Roblox,late,3.63,
+Sophia,Smith,San Diego,Female,189.5,False,False,Engineering,False,League of Legends,early,3.83,Soccer
+Sarah,Garcia,Dallas,Female,162.7,False,False,History,True,Roblox,early,2.61,Soccer
+Robert,Jones,Phoenix,Female,195.6,False,True,Science,True,Roblox,late,3.71,Soccer
+Emily,Miller,Los Angeles,Male,177.7,False,False,Psychology,True,League of Legends,late,2.73,Tennis
+Sarah,Smith,Phoenix,Male,151.4,False,False,Art,False,Fortnite,late,2.87,
+James,Johnson,San Antonio,Female,197.7,True,True,History,False,Among Us,early,3.44,Baseball
+Sophia,Garcia,San Diego,Female,190.8,False,False,History,False,Roblox,late,2.64,Running
+Sophia,Brown,New York,Non-binary,177.1,False,True,Medicine,True,Roblox,early,3.72,Running
+Sarah,Johnson,Houston,Female,194.0,True,False,Art,True,GTA V,late,3.39,Running
+John,Martinez,Houston,Female,182.2,False,False,Science,True,Roblox,late,2.96,Tennis
+Robert,Williams,Philadelphia,Non-binary,167.0,True,True,Science,False,League of Legends,early,3.79,Tennis
+Michael,Rodriguez,Dallas,Female,194.5,False,True,Psychology,False,Call of Duty,early,3.77,Yoga
+Olivia,Jones,New York,Non-binary,158.1,True,True,Art,True,Minecraft,late,2.78,Running
+Sarah,Davis,Houston,Female,162.4,True,False,Law,False,GTA V,late,3.02,Yoga
+Olivia,Davis,San Jose,Female,154.0,True,False,Law,True,Minecraft,early,3.56,Tennis
+Michael,Johnson,Dallas,Male,168.7,False,False,Business,True,Call of Duty,late,2.84,Tennis
+James,Rodriguez,Houston,Non-binary,182.5,True,True,Business,True,The Sims,late,3.01,Basketball
+Michael,Miller,San Diego,Non-binary,198.8,True,False,Art,True,The Sims,late,3.17,
+David,Garcia,Philadelphia,Non-binary,160.7,True,True,Medicine,False,League of Legends,late,2.1,Running
+Sarah,Rodriguez,Los Angeles,Male,189.8,False,True,Business,False,GTA V,early,2.65,Soccer
+Michael,Brown,San Diego,Non-binary,171.2,False,True,Business,True,Roblox,early,2.63,Baseball
+Jessica,Miller,Houston,Female,198.1,True,False,Engineering,True,Among Us,late,3.44,Running
+Olivia,Williams,San Jose,Male,163.2,False,False,Business,True,Call of Duty,early,2.01,
+John,Williams,Philadelphia,Female,194.7,False,True,Psychology,False,The Sims,early,3.19,Baseball
+John,Williams,Philadelphia,Male,165.2,True,True,Art,False,GTA V,late,2.0,Running
+David,Davis,Los Angeles,Non-binary,163.0,True,True,Art,False,Fortnite,early,2.41,Soccer
+Robert,Martinez,Chicago,Female,158.4,True,False,Art,False,Among Us,early,3.83,Tennis
+James,Smith,Phoenix,Non-binary,168.8,True,False,Law,True,Among Us,early,2.76,Soccer
+John,Miller,Houston,Female,167.2,False,False,History,True,Call of Duty,late,2.68,
+Emily,Rodriguez,San Jose,Non-binary,175.7,False,False,Psychology,False,Minecraft,late,2.46,
+Michael,Garcia,San Antonio,Female,186.9,False,True,Law,True,Fortnite,late,2.35,Yoga
+Sophia,Jones,Chicago,Female,163.6,True,True,Law,False,League of Legends,late,3.74,Running
+Jessica,Miller,New York,Female,157.3,True,True,Engineering,True,Fortnite,early,2.82,Running
+Emily,Rodriguez,Los Angeles,Non-binary,199.4,True,True,Engineering,False,GTA V,early,3.56,Swimming
+Olivia,Miller,San Jose,Non-binary,181.1,False,False,Medicine,False,Among Us,early,2.81,Baseball
+Michael,Davis,Dallas,Male,167.4,False,False,Psychology,True,Roblox,early,2.77,Yoga
+Jessica,Garcia,Philadelphia,Male,170.9,True,True,Science,False,Call of Duty,late,3.78,Basketball
+Olivia,Johnson,Los Angeles,Male,171.6,True,True,Business,True,The Sims,early,3.38,Yoga
+David,Brown,Dallas,Female,163.8,False,False,Business,False,Call of Duty,late,3.77,
+Sarah,Johnson,Philadelphia,Non-binary,199.4,True,False,Law,True,League of Legends,early,2.68,Soccer
+Robert,Martinez,Phoenix,Female,187.8,False,False,Law,False,Minecraft,late,3.93,Soccer
+Sarah,Davis,Phoenix,Male,188.5,False,True,Art,True,The Sims,late,3.76,Yoga
+David,Rodriguez,San Antonio,Non-binary,163.0,False,True,Engineering,True,Minecraft,late,3.83,Swimming
+Olivia,Rodriguez,Phoenix,Non-binary,157.9,True,False,Science,False,League of Legends,late,3.54,Running
+James,Martinez,Los Angeles,Non-binary,157.7,True,True,Law,False,Roblox,late,3.12,Running
+Emily,Brown,Chicago,Male,184.4,True,False,Science,True,League of Legends,late,2.55,Basketball
+Michael,Davis,Houston,Non-binary,192.9,False,False,Art,True,Minecraft,late,2.15,Basketball
+James,Williams,Phoenix,Male,170.3,True,True,Business,False,Call of Duty,early,2.69,Swimming
+Olivia,Williams,Dallas,Male,160.3,False,True,Law,True,Minecraft,early,2.77,Tennis
+John,Williams,Philadelphia,Female,193.7,True,True,Medicine,False,Among Us,early,3.06,Baseball
+Jessica,Williams,Phoenix,Female,162.4,True,False,Science,False,Call of Duty,early,3.35,Swimming
+Emily,Rodriguez,Houston,Non-binary,180.1,False,False,History,False,The Sims,early,3.6,Yoga
+Jessica,Brown,Phoenix,Female,190.1,False,True,Science,True,GTA V,early,2.63,Yoga
+Olivia,Davis,Los Angeles,Female,153.8,True,False,Medicine,False,Roblox,early,2.26,Basketball
+Sophia,Rodriguez,San Antonio,Non-binary,161.9,True,False,Medicine,True,GTA V,late,3.18,Yoga
+Sarah,Johnson,San Jose,Female,161.0,True,True,Medicine,False,Among Us,late,2.13,Baseball
+David,Smith,Dallas,Male,155.4,False,False,Engineering,False,The Sims,late,2.74,Soccer
+Robert,Davis,Dallas,Non-binary,162.4,False,True,Business,False,League of Legends,early,2.18,Running
+David,Rodriguez,New York,Male,167.1,False,False,Business,True,The Sims,late,3.78,
+David,Garcia,New York,Female,154.5,False,True,History,False,Roblox,late,2.74,Running
+Emily,Miller,Philadelphia,Male,190.9,False,False,Business,False,League of Legends,early,2.14,Baseball
+Olivia,Martinez,New York,Male,174.7,False,False,Art,False,Among Us,early,2.41,Swimming
+David,Garcia,Philadelphia,Female,159.4,True,True,Art,False,The Sims,late,3.5,Tennis
+Jessica,Jones,San Jose,Non-binary,164.1,True,False,Psychology,True,League of Legends,early,3.79,
+David,Martinez,Dallas,Non-binary,153.3,False,False,Art,True,The Sims,late,2.79,Tennis
+Olivia,Rodriguez,Houston,Non-binary,186.2,False,True,History,False,League of Legends,early,3.95,Running
+Robert,Johnson,Dallas,Non-binary,157.3,True,True,Business,False,League of Legends,early,3.08,Tennis
+Sophia,Miller,Philadelphia,Female,190.2,False,True,Science,False,Call of Duty,early,2.1,Soccer
+James,Rodriguez,Dallas,Female,165.6,True,False,Business,False,Roblox,late,3.87,Swimming
+Michael,Smith,New York,Non-binary,197.1,False,True,Engineering,True,League of Legends,late,3.75,Baseball
+Olivia,Johnson,Dallas,Female,184.3,False,True,Engineering,True,Call of Duty,early,3.43,
+James,Davis,Houston,Female,166.1,True,False,History,False,League of Legends,late,3.26,Basketball
+Robert,Rodriguez,Houston,Male,152.3,False,True,Medicine,True,Minecraft,early,3.36,Soccer
+Olivia,Brown,New York,Non-binary,187.5,False,True,Psychology,True,The Sims,late,3.61,Basketball
+Sarah,Rodriguez,Philadelphia,Female,178.7,True,True,Art,False,Among Us,early,2.27,
+James,Brown,Philadelphia,Female,155.0,True,True,History,True,Among Us,late,3.94,Yoga
+Sarah,Davis,Los Angeles,Non-binary,178.2,True,True,Engineering,True,The Sims,late,3.88,
+James,Johnson,Dallas,Non-binary,166.2,False,True,History,False,Among Us,early,3.76,
+Olivia,Rodriguez,Dallas,Male,163.2,True,True,Law,False,League of Legends,late,3.12,Soccer
+Sophia,Rodriguez,New York,Male,199.9,True,True,History,False,Minecraft,late,3.16,Tennis
+Sophia,Brown,San Antonio,Female,163.9,True,False,Business,True,Among Us,early,3.33,Running
+Robert,Rodriguez,New York,Non-binary,160.9,False,False,Art,True,League of Legends,early,3.67,Running
+Robert,Martinez,Dallas,Male,198.6,False,True,Art,False,League of Legends,early,2.39,Soccer
+Michael,Miller,Houston,Non-binary,175.1,True,False,Medicine,True,Roblox,early,3.53,Baseball
+Sarah,Miller,New York,Female,189.2,False,False,History,False,Call of Duty,late,2.54,Swimming
+Sarah,Brown,Chicago,Female,162.1,False,False,Art,False,League of Legends,early,2.72,Running
+Olivia,Davis,New York,Female,166.5,True,True,Medicine,True,League of Legends,early,3.88,Yoga
+Emily,Johnson,Houston,Non-binary,185.7,False,True,Medicine,False,The Sims,early,2.92,Tennis
+Jessica,Johnson,New York,Male,174.2,True,False,Law,True,League of Legends,late,3.0,Soccer
+Olivia,Davis,Los Angeles,Female,176.4,False,True,Engineering,False,GTA V,early,2.23,Running
+Sarah,Davis,Philadelphia,Male,168.7,False,False,History,False,League of Legends,early,3.08,Baseball
+Sophia,Jones,Houston,Male,173.8,False,True,Business,False,League of Legends,late,3.27,Baseball
+David,Johnson,San Diego,Female,178.2,False,False,Law,False,Fortnite,early,2.05,Running
+Sophia,Jones,Houston,Non-binary,156.9,False,False,Psychology,False,League of Legends,late,3.75,Soccer
+Sophia,Brown,Phoenix,Non-binary,193.4,True,False,Science,True,League of Legends,late,3.0,Baseball
+Michael,Miller,Chicago,Female,192.3,True,True,Medicine,True,Fortnite,late,2.33,Tennis
+James,Garcia,Chicago,Non-binary,165.6,False,False,Law,True,GTA V,early,3.33,Tennis
+Sarah,Davis,Philadelphia,Male,151.2,True,True,Engineering,True,Minecraft,early,3.06,
+Robert,Garcia,New York,Non-binary,164.8,False,False,Medicine,True,The Sims,late,2.27,Running
+Jessica,Garcia,San Diego,Female,167.9,True,False,Science,True,League of Legends,early,2.87,Running
+Sophia,Brown,San Jose,Male,162.3,False,True,Business,False,Roblox,late,2.25,Swimming
+John,Williams,Phoenix,Female,196.8,True,True,Science,True,Minecraft,late,3.51,Baseball
+Michael,Garcia,Houston,Male,184.6,False,True,History,True,The Sims,late,3.06,Yoga
+Michael,Davis,San Jose,Female,182.8,False,True,Medicine,False,GTA V,early,3.32,Baseball
+Michael,Garcia,Dallas,Male,170.8,True,True,Art,True,League of Legends,late,3.51,Soccer
+Michael,Williams,Houston,Non-binary,157.3,True,False,Psychology,True,Call of Duty,late,2.91,Running
+Emily,Williams,New York,Non-binary,164.7,False,False,Medicine,True,Minecraft,late,3.29,Soccer
+John,Miller,San Antonio,Male,156.1,True,True,Law,False,League of Legends,early,3.9,
+Robert,Garcia,New York,Female,171.8,False,False,Science,True,Minecraft,late,3.08,Tennis
+Sophia,Smith,San Diego,Male,180.6,False,True,Business,False,The Sims,late,2.48,Running
+James,Rodriguez,Houston,Male,168.9,True,True,Business,True,Fortnite,late,2.47,Baseball
+John,Rodriguez,San Jose,Male,151.2,False,True,Art,False,Minecraft,early,2.39,Soccer
+Olivia,Martinez,Dallas,Female,162.6,True,True,Law,False,Fortnite,early,2.47,Yoga
+Jessica,Williams,San Diego,Non-binary,159.0,False,True,Psychology,True,GTA V,late,2.62,Running
+David,Brown,Dallas,Male,155.8,False,True,History,True,Fortnite,late,3.03,
+David,Davis,San Antonio,Female,171.2,True,True,Law,False,GTA V,late,3.18,Tennis
+James,Jones,Chicago,Male,188.0,True,False,Science,False,Roblox,early,3.53,Tennis
+Sarah,Martinez,New York,Non-binary,187.5,False,True,Business,False,Among Us,early,3.22,Swimming
+John,Davis,San Diego,Non-binary,158.6,True,False,Science,True,League of Legends,late,2.88,Yoga
+Jessica,Garcia,Houston,Female,178.6,True,True,Science,True,Call of Duty,early,2.28,Basketball
+Jessica,Miller,Los Angeles,Male,151.8,True,True,History,False,Among Us,late,3.71,Baseball
+James,Johnson,Houston,Non-binary,199.2,False,False,Science,True,Fortnite,early,2.7,Baseball
+Sarah,Smith,Los Angeles,Male,154.6,False,False,Medicine,True,Call of Duty,early,2.91,
